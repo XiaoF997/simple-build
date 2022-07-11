@@ -17,5 +17,3 @@ pluginManagement {
 rootProject.name = "SimpleBuildPro"
 include ':app'
 include ':simple-build'
-include ':mylibrary'
-include ':mylibrary2'
