@@ -3,13 +3,34 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'maven-publish'
 }
-group = 'com.github.XiaoF997'
+group = 'com.xfg.simple_build'
+def vision = '0.0.1-alpha'
+
+repositories {
+    maven { url "https://jitpack.io" }
+    mavenCentral()
+    google()
+    jcenter()
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.xfg.simple-build'
+                artifactId = 'build'
+                version = vision
+            }
+        }
+    }
+}
 
 android {
     compileSdk 32
 
     defaultConfig {
-        minSdk 21
+        minSdk 16
         targetSdk 32
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -41,15 +62,3 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 }
 
-afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-                from components.release
-                groupId = 'com.xfg'
-                artifactId = 'simple-build'
-                version = '0.0.1-dev'
-            }
-        }
-    }
-}
