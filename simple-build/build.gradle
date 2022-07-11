@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.library'
-    id 'org.jetbrains.kotlin.android'
     id 'maven-publish'
+    id 'org.jetbrains.kotlin.android'
 }
 group = 'com.xfg.simple_build'
 def vision = '0.0.1-alpha'
