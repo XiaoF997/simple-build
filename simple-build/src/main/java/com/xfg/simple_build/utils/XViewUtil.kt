@@ -1,4 +1,4 @@
-package com.xfg.simple_build.tab.utils
+package com.xfg.simple_build.utils
 
 import android.view.View
 import android.view.ViewGroup

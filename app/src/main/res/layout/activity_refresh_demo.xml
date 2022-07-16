@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xfg.simple_build.refresh.XRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/refreshlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xfg.simplebuildpro.refresh.RefreshDemoActivity">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="asds"
+                android:background="#ff0000"
+                android:layout_marginTop="20dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="asds"
+                android:background="#ff0000"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="asds"
+                android:background="#ff0000"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="asds"
+                android:background="#ff0000"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="asds"
+                android:background="#ff0000"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="asds"
+                android:background="#ff0000"
+                android:layout_marginTop="20dp"/>
+
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</com.xfg.simple_build.refresh.XRefreshLayout>

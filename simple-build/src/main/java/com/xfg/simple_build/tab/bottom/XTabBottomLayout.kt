@@ -15,8 +15,8 @@ import androidx.core.widget.NestedScrollView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.simple_build.R
 import com.xfg.simple_build.tab.common.IXTabLayout
-import com.xfg.simple_build.tab.utils.DisplayUtil
-import com.xfg.simple_build.tab.utils.XViewUtil
+import com.xfg.simple_build.utils.DisplayUtil
+import com.xfg.simple_build.utils.XViewUtil
 
 class XTabBottomLayout: FrameLayout, IXTabLayout<XTabBottom, XTabBottomInfo<*>> {
 

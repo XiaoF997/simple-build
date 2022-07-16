@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SimpleBuildPro">
         <activity
+            android:name="com.xfg.simplebuildpro.refresh.RefreshDemoActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.xfg.simplebuildpro.tab.XTabTopDemoActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.xfg.simplebuildpro.tab.XTabBottomDemoActivity"
+            android:exported="true" />
+        <activity
             android:name="com.xfg.simplebuildpro.MainActivity"
             android:exported="true">
             <intent-filter>

@@ -3,14 +3,11 @@ package com.xfg.simple_build.tab.top
 import android.content.Context
 import android.graphics.Rect
 import android.util.AttributeSet
-import android.view.Gravity
-import android.view.ViewGroup
-import android.widget.FrameLayout
 import android.widget.HorizontalScrollView
 import android.widget.LinearLayout
 import androidx.core.view.children
 import com.xfg.simple_build.tab.common.IXTabLayout
-import com.xfg.simple_build.tab.utils.DisplayUtil
+import com.xfg.simple_build.utils.DisplayUtil
 import kotlin.math.abs
 
 class XTabTopLayout: HorizontalScrollView, IXTabLayout<XTabTop, XTabTopInfo<*>> {

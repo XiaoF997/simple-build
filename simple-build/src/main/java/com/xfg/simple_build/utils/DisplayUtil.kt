@@ -1,4 +1,4 @@
-package com.xfg.simple_build.tab.utils
+package com.xfg.simple_build.utils
 
 import android.content.Context
 import android.content.res.Resources
