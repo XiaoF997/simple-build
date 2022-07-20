@@ -91,6 +91,7 @@ class XRefreshLayout : FrameLayout, IXRefresh {
                 //横向滑动或刷新被禁止则不处理
                 return false
             }
+
             if (disableRefreshScroll && mState == XOverView.XRefreshState.STATE_REFRESH) {
                 return true
             }
@@ -119,6 +120,7 @@ class XRefreshLayout : FrameLayout, IXRefresh {
             } else {
                 return false
             }
+
         }
     }
 
